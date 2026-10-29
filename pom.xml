@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ma.emsi.hajarbelhachmi</groupId>
-    <artifactId>TP1-Hajar-Belhachmi</artifactId>
+    <artifactId>tp0-hajar-belhachmi</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>TP1-Hajar-Belhachmi</name>
+    <name>TP0-Hajar-Belhachmi</name>
     <packaging>war</packaging>
 
     <properties>
@@ -35,6 +35,11 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>16.0.0</version>
         </dependency>
     </dependencies>
 
