@@ -37,7 +37,7 @@ public class LlmClientPourGemini implements Serializable {
         // Elle se trouve aussi dans le support de cours.
         // La clé secrète est passée en paramètre de l'URL du endpoint.
         this.target = clientRest
-                .target("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent")
+                .target("https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent")
                 .queryParam("key", this.key);
     }
 
